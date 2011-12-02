@@ -1,0 +1,49 @@
+@font-face {
+	/* http://www.urbanfonts.com/fonts/Agent_Orange.htm */
+	font-family: "AGENTORANGE";
+	src: url("fonts/AGENTORANGE.TTF");
+}
+
+body {
+	font-family: "courier new", sans-serif; 
+	background-image: url("../me.png"); 
+	background-position: top right;	
+	background-repeat: no-repeat; 
+	
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+   
+	position: relative;
+	float: left;
+	left: 2px;
+	width: 828px;
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+header {
+	font-family: "AGENTORANGE";
+	font-size: 20px;
+	position: relative;
+	left: 10px;
+}
+
+nav {
+	position: relative;
+	float: left;
+	left: 10px;
+	width: 100px;
+	
+	-moz-box-shadow: 1px 0px 0px #000000;
+	-webkit-box-shadow: 1px 0px 0px #000000;
+	box-shadow: 1px 0px 0px #000000;
+}
+
+.content {
+	position: relative;
+	float: left;
+	left: 30px;
+	width: 450px;
+	height: 100%;
+}
