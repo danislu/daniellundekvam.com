@@ -22,14 +22,14 @@ body {
 	height: 100%;
 }
 
-header {
+.header {
 	font-family: "AGENTORANGE";
 	font-size: 20px;
 	position: relative;
 	left: 10px;
 }
 
-nav {
+.nav {
 	position: relative;
 	float: left;
 	left: 10px;
@@ -39,6 +39,7 @@ nav {
 	-webkit-box-shadow: 1px 0px 0px #000000;
 	box-shadow: 1px 0px 0px #000000;
 }
+
 
 .content {
 	position: relative;
