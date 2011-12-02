@@ -4,22 +4,27 @@
 	src: url("fonts/AGENTORANGE.TTF");
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	font-family: "courier new", sans-serif; 
 	background-image: url("../me.png"); 
-	background-position: top right;	
+	background-position: right bottom;	
 	background-repeat: no-repeat; 
 	background-color: #FAFAFA;
 	
 	border-width: 0px;
 	padding: 0px;
 	margin: 0px;
-   
-	position: relative;
+
+    position: relative;
 	float: left;
 	left: 2px;
-	width: 828px;
 	margin-bottom: 20px;
+	
+	height: auto !important;
 	height: 100%;
 }
 
@@ -35,6 +40,7 @@ body {
 	float: left;
 	left: 10px;
 	width: 100px;
+	padding:10px 0;
 	
 	-moz-box-shadow: 1px 0px 0px #000000;
 	-webkit-box-shadow: 1px 0px 0px #000000;
@@ -48,4 +54,5 @@ body {
 	left: 30px;
 	width: 450px;
 	height: 100%;
+	padding:10px 0;
 }
