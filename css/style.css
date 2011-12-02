@@ -6,6 +6,7 @@
 
 html {
 	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 	background-position: right bottom;	
 	background-repeat: no-repeat; 
 	background-color: #FAFAFA;
+	
 	
 	border-width: 0px;
 	padding: 0px;
@@ -26,6 +28,9 @@ body {
 	
 	height: auto !important;
 	height: 100%;
+	
+	width: auto !important;
+	width: 100%;
 }
 
 .header {
@@ -47,12 +52,16 @@ body {
 	box-shadow: 1px 0px 0px #000000;
 }
 
+.nav li, .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 
 .content {
 	position: relative;
 	float: left;
 	left: 30px;
-	width: 450px;
 	height: 100%;
 	padding:10px 0;
 }
