@@ -11,7 +11,20 @@ body {
 	background-repeat: no-repeat; 
 	background-color: #FAFAFA;
 	margin:0;
-	padding:100px 0 0 135px;
+	padding: 100px 115px 0 135px;
+	
+	#background-color: blue;
+}
+
+.gutter {
+	position:absolute;
+	top:100px;
+	right:0;
+	width:115px;
+	height:100%;
+	margin-right: 0;
+	
+	#background-color: yellow;
 }
 
 .header {
@@ -19,10 +32,16 @@ body {
 	font-size: 20px;
 	position:absolute;
 	top:0;
-	left:20px;
+	left:0;
 	width:100%;
 	height:100px;
 	white-space:nowrap;
+	
+	#background-color: red;
+}
+
+.header h1 {
+	margin-left: 20px;
 }
 
 .nav {
@@ -32,6 +51,8 @@ body {
 	width:115px;
 	height:100%;
 	margin-left: 0;
+	
+	#background-color: green;
 }
 
 li {
@@ -45,9 +66,10 @@ ul {
 	padding-left: 20px;
 	margin-left: 0;
 	margin-right: 0;
-	-moz-box-shadow: 1px 0px 0px #000000;
-	-webkit-box-shadow: 1px 0px 0px #000000;
-	box-shadow: 1px 0px 0px #000000;
+	
+	#-moz-box-shadow: 1px 0px 0px #000000;
+	#-webkit-box-shadow: 1px 0px 0px #000000;
+	#box-shadow: 1px 0px 0px #000000;
 }
 
 
